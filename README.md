@@ -1,2 +1,2 @@
-# Deaktivierung-unn-tiger-Telemetrie-St-rkung-der-Privatsph-re
+# Deaktivierung-und-tiger-Telemetrie-St-rkung-der-Privatsph-re
 〆MøpZy々
