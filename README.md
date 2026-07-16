@@ -7,3 +7,11 @@ Cortana (AllowCortana = 0): Cortana ist Microsofts Sprachassistentin, die tief i
 Aktivitätsverlauf (PublishUserActivities = 0): Windows protokolliert oft, welche Dokumente du geöffnet oder welche Webseiten du besucht hast, um „die Arbeit fortzusetzen“. Das Skript schaltet diese Überwachung ab, damit dein Nutzungsverlauf nicht in der Cloud oder lokal gespeichert wird.
 
 Feedback-Anfragen (DoNotShowFeedbackNotifications = 1): Das Skript blockiert die nervigen „Wie finden Sie Windows?“-Popups, die oft aus dem Nichts erscheinen und ebenfalls Daten an Microsoft zurücksenden.
+
+
+
+
+Technischer Hinweis:
+Das Skript arbeitet direkt mit Registry-Schlüsseln (HKLM für das ganze System, HKCU für deinen Benutzer). Das sind die zentralen Datenbanken von Windows, in denen fast alle Einstellungen gespeichert sind. Da du das Skript als Administrator ausführst, hat es die Berechtigung, diese Werte zu ändern, die über das normale Einstellungs-Menü oft gar nicht oder nur teilweise erreichbar sind.
+
+Hast du das Gefühl, dass das für deine Nutzer (die deine Datei später herunterladen) verständlich ist, oder sollen wir diese Erklärungen vielleicht kurz in die README.md-Datei deines Repositories schreiben? Das würde das Vertrauen in deinen Code extrem stärken!
